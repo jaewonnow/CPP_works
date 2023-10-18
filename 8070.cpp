@@ -31,10 +31,10 @@ class Account{
         void withdraw(int money){
             if(this->balance_ > money){
                 setBalance(this->balance_ - money);
-			}
-		}
+	    }
+	}
 		
-		void showStatus(){
+	void showStatus(){
             cout << "계좌번호 : " << accountNum_ << ", 예금주명 : " << name_ << ", 잔고 : " << balance_ << endl;
         }
     private:
