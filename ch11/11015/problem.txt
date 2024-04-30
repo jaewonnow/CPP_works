@@ -1,0 +1,7 @@
+class Camera는 string modelName_; 및 Lens * lens_; 를 멤버로 가지고 있고 함
+수 tellSpec 가 있다. tellSpec ()를 호출하면 "카메라 모델: Canon R5 . 결합된
+ 렌즈: Canon 200mm " 와 같은 메시지를 출력한다. Camera 클래스는 결합된 렌즈
+의 이름을 직접 가지고 있으면 안된다. 필요할 때, 포인터를 통해서 accessor로 가져와야 한다.
+class Lens 은 string modelName_; 및 Camera * boy_friend_; 를 멤버로 가지고 있고 함수 tellSpec 가 있다. tellSpec ()를 호출하면
+ "렌즈 모델: Canon 200mm . 결합된 카메라: Canon R5 . " 와 같은 메시지를 출력한다. Lens 클래스는 카메
+라의 이름을 직접 가지고 있으면 안된다. 필요할 때, 포인터를 통해서 가져와야 한다.
