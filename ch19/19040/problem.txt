@@ -1,0 +1,10 @@
+INT1.c에서 함수 add를 operator version 으로 바꾸고 테스트는
+ add(x,y) 대신 x + y 로 바꾼다.
+두 수의 곱셈인 x * y 도 할 수 있도록 연산자를 추가한다.
+아래와 같이 테스트한다. (INT1.c 에 있는 클래스를 복사)
+
+int main(){
+    INT x(1), y(2), z;
+    z = x + y;  z = z * z;
+    cout << z.getValue() << endl;
+}

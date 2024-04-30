@@ -1,0 +1,29 @@
+다음과 같은 카드 클래스가 있다.
+이 카드 클래스를 cout 을 이용하여 출력하도록 프로그램을 작성하라.
+Hint 1: 연산자 오버로딩 (메소드 버전 아니고 전역 함수 버전으로)
+Hint 2: 우리가 쓰던 cout은 ostream 클래스의 instance 임을 알면 도움이 된다
+.
+        단, 파라메터 전달시 복사가 일어나지 않도록 유의한다.
+class Card{
+    public:
+        Card(int r, int s):rank(r), suit(s){
+            // Empty
+        }
+        void print() const{
+            cout << "Rank: " << rank << " Suit: "<< suit ;
+        }
+    private:
+        int rank;
+        int suit;
+};
+
+int main(){
+Card c(2,3);
+// 1단계:  아래와 같으 호출하면 카드를 출력해주는 전역 함수 myprint 를 작>성하라. Hint2 참조.
+    myprint( cout, c );
+// 2단계: 1 단계의 myprint 함수를 연산자 << 로 바꾸어 아래와 같이 호출할 >수 있도록 정의하라.
+    cout << c;
+// 3단계: 2단계를 확장하여 연속으로 출력될 수 있도록 수정하라.
+    cout <<"카드는 " << c << "입니다." << endl;
+    return 0;
+}
