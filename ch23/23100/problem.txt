@@ -1,0 +1,10 @@
+1.0 보다 작은 수를 출력하는 ( ) 연산자를 가진 클래스 TinyNumPrinter를 작성
+하여,
+주어진 리스트에서  1 미만의 수만을 출력하게 하라.
+
+double num;
+while ( cin >> num ){
+   vec.push_back(num);
+}
+
+TinyNumberPrinter를 for_each로 이용하여 1 미만의 수만을 출력하게 만든다.
