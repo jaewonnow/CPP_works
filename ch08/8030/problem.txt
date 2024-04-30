@@ -1,0 +1,9 @@
+구조체 Rect 는 멤버 변수로 음이 아닌 정수 width, height 를 가지고 있다.
+Rect r; 을 선언하고 method로서 unsigned int area(); 를 만들어 준다.
+area함수는 자신의 면적 계산하여 돌려주는 함수이다.
+
+int main(){
+  Rect r;
+  r.width_ = 5; r.height_ = 6;
+  cout << "면적" << r.area() << endl;
+}

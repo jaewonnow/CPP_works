@@ -1,0 +1,10 @@
+새를 나타내는 구조체 Bird를 정의하여 예제와 같이 사용할 수 있게하라.
+멤버 변수는 필요 없고, 멤버 함수 fly는 “I can fly!”를 출력하는 함수이고,
+sing은 “La La La”를 출력하는 함수이다. (각각 줄바꿈까지 출력)
+
+main에서는 아래와 같이
+tweety에게 fly함수와 sing함수를 실행하게 한다.
+
+Bird tweety;
+tweety.fly();
+tweety.sing();
