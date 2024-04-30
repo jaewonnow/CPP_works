@@ -1,0 +1,9 @@
+사각형을 나타내는 Rect 클래스를 정의하고 아래와 같은 main함수가 실행되도록 구성하라.
+getRect함수는 표준 입력에서 너비와 높이를 입력받아 Rect 의 instance를 하나 만들어서 돌려주는 함수이다.
+
+int main(){
+    Rect *r;
+    r = Rect::getRect();
+    r->show();  // 출력 예시: 3x4 사각형입니다.
+    return 0;
+}
