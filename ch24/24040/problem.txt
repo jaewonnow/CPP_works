@@ -1,0 +1,2 @@
+Button  클래스에는 ActionLister의 instance 가 있다.
+mouseClick이 호출되면  actionPerformed 함수가 실행되어 "Apple"이 출력되도>록 만들어보라.

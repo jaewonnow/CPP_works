@@ -1,0 +1,13 @@
+주어진 Button  클래스에는 마우스가 눌렸을 때 실행되는  onClick 메소드가 있
+다.
+일종의 callback 함수이다.
+Button 클래스를 수정하지 말고 AppleButton 으로 상속하여
+onClick 함수를 override하여 "Apple"을 출력하도록 하여보라.
+또 다른 버튼은 BananaButton 클래스로 상속하여 "Banana"를 출력하도록 하라.
+단, 상위 클래스의 함수를 먼저 호출해 준다.
+
+실행 예시.
+Button 클릭됨.
+Apple
+Button 클릭됨.
+Banana
