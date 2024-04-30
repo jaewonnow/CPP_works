@@ -1,0 +1,2 @@
+주어진 정수의 linked list를 변형하여 임의의 타입을 내용물로 가지는 linked list template class를 만들고
+List<int> 와 List<double> 을 만들어 테스트하라.
